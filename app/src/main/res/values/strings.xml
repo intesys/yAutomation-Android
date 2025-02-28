@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">yBDDTests</string>
+    <string name="demoName">Demo BDD</string>
+    <string name="form">Form</string>
+    <string name="list">List</string>
+    <string name="images">Images</string>
+    <string name="controls">Controls</string>
+    <string name="picker">Pickers</string>
+    <string name="date_picker">Date Picker</string>
+    <string name="alerts">Alerts</string>
+    <string name="first_name">First Name</string>
+    <string name="first_surname">Last Name</string>
+    <string name="item1">Item 1</string>
+    <string name="item2">Item 2</string>
+    <string name="item3">Item 3</string>
+    <string name="home">Home</string>
+    <string name="info">Info</string>
+    <string name="credits">Credits</string>
+    <string name="info_text">Some general infos.\n\n\n\nThis screen was added mostly to showcase the usage of tabs.</string>
+    <string name="ok">OK</string>
+    <string name="credits_text">yBDDTests was developed by Intesys for UI-testing\nits projects.</string>
+    <string name="show_color_options">Show color options</string>
+    <string name="yes_no_text">Show Yes/No alert</string>
+    <string name="is_it_yes_or_no">Is it a yes or a no?</string>
+    <string name="there_is_no_undo">There is no undo</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="yes_tapped">Yes tapped</string>
+    <string name="no_tapped">No tapped</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_a_color">Select a color</string>
+    <string name="toggle">Toggle</string>
+    <string name="stepper_description">In android a Stepper component doesn\'t exist.\nIt would be possible to implement a custom one but it wouldn\'t add useful information for tests</string>
+    <string name="in_material_the_only_pickers">In material the only pickers are DatePickers and TimePickers.\nThese are non material pickers that might be used.</string>
+    <string name="spinner">Spinner</string>
+    <string name="choose">Please choose a color:</string>
+    <string name="selected_color">You selected: %1$s</string>
+    <string name="number_picker">NumberPicker (with Display Strings)</string>
+    <string name="select_a_date">Select a date</string>
+    <string name="date_is">Date is %1$s</string>
+    <string name="alertTitle">Alert Title</string>
+    <string name="tapped">%1$s tapped</string>
+    <string name="Picture1"><![CDATA[The cat photo used in this app is from: https://unsplash.com/it/foto/gatto-in-bianco-e-nero-sdraiato-su-una-sedia-di-bambu-marrone-allinterno-della-stanza-gKXKBY-C-Dk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) in the images section is from [Manja Vitolic](https://unsplash.com/it/@madhatterzone?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash by Manja Vitolic]]></string>
+    <string name="Picture2"><![CDATA[The dog photo used in this app is from: https://unsplash.com/it/foto/labrador-retriever-cioccolato-adulto-v3-zcCWMjgM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash by James Barker]]></string>
+    <string name="cucumber">Cucumber-Android library (https://github.com/cucumber/cucumber-android) is an open source library by The Cucumber Organisation (Copyright (c) The Cucumber Organisation)</string>
+</resources>

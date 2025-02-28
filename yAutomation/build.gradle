@@ -1,0 +1,44 @@
+plugins {
+    alias(libs.plugins.android.library)
+    alias(libs.plugins.kotlin.android)
+}
+
+android {
+    namespace 'it.intesys.yautomation'
+    compileSdk 35
+
+    defaultConfig {
+        minSdk 28
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+        versionName "0.1"
+        versionCode 1
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+}
+
+dependencies {
+    api libs.junit
+    api libs.androidx.junit
+    api libs.androidx.espresso.core
+    api libs.androidx.uiautomator
+
+    api libs.androidx.core.testing
+    api libs.rules
+    api libs.androidx.runner
+    implementation libs.androidx.espresso.contrib
+    implementation libs.androidx.core
+}

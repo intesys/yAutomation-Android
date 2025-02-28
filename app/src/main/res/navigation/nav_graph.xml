@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/DemoFragment">
+
+    <fragment
+        android:id="@+id/DemoFragment"
+        android:name="it.intesys.ybddtests.DemoFragment"
+        android:label="@string/demoName"
+        tools:layout="@layout/fragment_demo">
+
+        <action
+            android:id="@+id/action_to_HomeFragment"
+            app:destination="@id/DemoFragment" />
+        <action
+            android:id="@+id/action_to_InfoFragment"
+            app:destination="@id/InfoFragment" />
+        <action
+            android:id="@+id/action_to_CreditsFragment"
+            app:destination="@id/CreditsFragment" />
+        <action
+            android:id="@+id/action_to_FormFragment"
+            app:destination="@id/FormFragment" />
+        <action
+            android:id="@+id/action_to_ListFragment"
+            app:destination="@id/ListFragment" />
+        <action
+            android:id="@+id/action_to_ImagesFragment"
+            app:destination="@id/ImagesFragment" />
+        <action
+            android:id="@+id/action_to_ControlsFragment"
+            app:destination="@id/ControlsFragment" />
+        <action
+            android:id="@+id/action_to_PickersFragment"
+            app:destination="@id/PickersFragment" />
+        <action
+            android:id="@+id/action_to_DatePickersFragment"
+            app:destination="@id/DatePickersFragment" />
+        <action
+            android:id="@+id/action_to_AlertsFragment"
+            app:destination="@id/AlertsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/InfoFragment"
+        android:name="it.intesys.ybddtests.InfoFragment"
+        android:label="@string/info"
+        tools:layout="@layout/fragment_info">
+        <action
+            android:id="@+id/action_to_HomeFragment"
+            app:destination="@id/DemoFragment" />
+        <action
+            android:id="@+id/action_to_InfoFragment"
+            app:destination="@id/InfoFragment" />
+        <action
+            android:id="@+id/action_to_CreditsFragment"
+            app:destination="@id/CreditsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/CreditsFragment"
+        android:name="it.intesys.ybddtests.CreditsFragment"
+        android:label="@string/credits"
+        tools:layout="@layout/fragment_credits">
+        <action
+            android:id="@+id/action_to_HomeFragment"
+            app:destination="@id/DemoFragment" />
+        <action
+            android:id="@+id/action_to_InfoFragment"
+            app:destination="@id/InfoFragment" />
+        <action
+            android:id="@+id/action_to_CreditsFragment"
+            app:destination="@id/CreditsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FormFragment"
+        android:name="it.intesys.ybddtests.FormFragment"
+        android:label="@string/form"
+        tools:layout="@layout/fragment_form">
+    </fragment>
+    <fragment
+        android:id="@+id/ListFragment"
+        android:name="it.intesys.ybddtests.ListFragment"
+        android:label="@string/list"
+        tools:layout="@layout/fragment_list">
+    </fragment>
+    <fragment
+        android:id="@+id/ControlsFragment"
+        android:name="it.intesys.ybddtests.ControlsFragment"
+        android:label="@string/controls"
+        tools:layout="@layout/fragment_controls">
+    </fragment>
+    <fragment
+        android:id="@+id/PickersFragment"
+        android:name="it.intesys.ybddtests.PickersFragment"
+        android:label="@string/picker"
+        tools:layout="@layout/fragment_form">
+    </fragment>
+    <fragment
+        android:id="@+id/DatePickersFragment"
+        android:name="it.intesys.ybddtests.DatePickersFragment"
+        android:label="@string/date_picker"
+        tools:layout="@layout/fragment_date_pickers">
+    </fragment>
+    <fragment
+        android:id="@+id/AlertsFragment"
+        android:name="it.intesys.ybddtests.AlertsFragment"
+        android:label="@string/alerts"
+        tools:layout="@layout/fragment_alerts">
+    </fragment>
+    <fragment
+        android:id="@+id/ImagesFragment"
+        android:name="it.intesys.ybddtests.ImagesFragment"
+        android:label="@string/images"
+        tools:layout="@layout/fragment_images">
+    </fragment>
+</navigation>
